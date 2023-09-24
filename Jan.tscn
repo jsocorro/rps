@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://btdft5ry7du6m"]
+
+[ext_resource type="Texture2D" uid="uid://cntiwifaw4jm2" path="res://icon.svg" id="1_sj2wi"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(369, 220)
+texture = ExtResource("1_sj2wi")
+
+[node name="Sprite2D" type="Sprite2D" parent="Icon"]
+
+[node name="Button" type="Button" parent="Icon/Sprite2D"]
+offset_left = 105.0
+offset_top = -45.0
+offset_right = 351.0
+offset_bottom = 39.0
+text = "Aprieta Aqui Papi"
